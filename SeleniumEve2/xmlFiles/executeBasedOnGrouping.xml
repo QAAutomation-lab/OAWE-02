@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+  <test name="RegressionExecution">
+  	<groups>
+      <run>
+        <include name="Regression"/>
+         <exclude name="Smoke Test"/>
+         <exclude name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="testngPrograms.GroupExamples" />
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,17 @@
+
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="Test@123" />
+		<classes>
+			<class name="testngsamples.Parameterization" />
+			<methods>
+				<include name="testCaseOne" />
+				<exclude name="testCaseTwo" />
+				<exclude name="testCaseThree" />
+				<include name="testLoginOfVtiger" />
+			</methods>
+		</classes>
+	</test>
+</suite>
