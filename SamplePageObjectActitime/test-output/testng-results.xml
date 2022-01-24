@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21156" started-at="2021-12-21T03:04:19Z" finished-at="2021-12-21T03:04:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21156" started-at="2021-12-21T03:04:19Z" finished-at="2021-12-21T03:04:40Z">
+      <class name="testscripts.TestLeadsPage">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:testscripts.TestLeadsPage@60d8c9b7]" name="prerequisite" is-config="true" duration-ms="14452" started-at="2021-12-21T08:34:19Z" finished-at="2021-12-21T08:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="testLeadCreation()[pri:0, instance:testscripts.TestLeadsPage@60d8c9b7]" name="testLeadCreation" duration-ms="6502" started-at="2021-12-21T08:34:34Z" finished-at="2021-12-21T08:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeadCreation -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:testscripts.TestLeadsPage@60d8c9b7]" name="clean" is-config="true" duration-ms="181" started-at="2021-12-21T08:34:40Z" finished-at="2021-12-21T08:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- testscripts.TestLeadsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
